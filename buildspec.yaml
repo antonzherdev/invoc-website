@@ -1,0 +1,17 @@
+version: 0.2
+env:
+  variables:
+    BuildType: default
+phases:
+  install:
+    runtime-versions:
+      nodejs: latest
+    commands:
+      - npm install
+  build:
+    commands:
+      - ./build.sh
+artifacts:
+  base-directory: build
+  files:
+    - "**/*"

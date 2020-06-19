@@ -1,0 +1,66 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Invoc Frontend Cloud Formation and Certificate to be deployed in us-east-1
+Conditions:
+  RegionUsEast1: !Equals [ !Ref "AWS::Region", us-east-1 ]
+Parameters:
+  Domain:
+    Type: String
+  Suffix:
+    Type: String
+Outputs:
+  CloudFrontId:
+    Value: !Ref CloudFrontDistr
+Resources:
+  ##########################################################
+  # Certificate
+  ##########################################################
+  DomainCert:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName: !Sub ${Domain}
+      DomainValidationOptions:
+        - DomainName: !Sub ${Domain}
+          ValidationDomain: !Ref Domain
+      ValidationMethod: DNS
+
+  ##########################################################
+  # CloudFront
+  ##########################################################
+  CloudFrontDistr:
+    Type: AWS::CloudFront::Distribution
+    DeletionPolicy: Delete
+    Properties:
+      DistributionConfig:
+        Aliases:
+          - !Sub ${Domain}
+        Origins:
+          - DomainName: !Sub ${Domain}.s3.amazonaws.com
+            Id: !Sub S3-${Domain}
+            S3OriginConfig:
+              OriginAccessIdentity: ""
+        Enabled: True
+        DefaultCacheBehavior:
+          Compress: True
+          ViewerProtocolPolicy: redirect-to-https
+          TargetOriginId: !Sub S3-${Domain}
+          ForwardedValues:
+            QueryString: False
+        DefaultRootObject: index.html
+        CustomErrorResponses:
+          - ErrorCode: 404
+            ResponseCode: 200
+            ResponsePagePath: "/index.html"
+        ViewerCertificate:
+          SslSupportMethod: sni-only
+          AcmCertificateArn: !Ref DomainCert
+
+  DNSRecord:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      Type: A
+      HostedZoneName: !Sub "${Domain}."
+      Name: !Sub "${Domain}."
+      AliasTarget:
+        DNSName: !GetAtt CloudFrontDistr.DomainName
+        HostedZoneId: "Z2FDTNDATAQYW2"
+
