@@ -11,5 +11,6 @@
     <orderEntry type="library" name="materialize" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="3971decfc0" level="application" />
+    <orderEntry type="library" name="analytics" level="application" />
   </component>
 </module>
