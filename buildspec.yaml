@@ -12,6 +12,6 @@ phases:
     commands:
       - ./build.sh
 artifacts:
-  base-directory: build
+  base-directory: dist
   files:
     - "**/*"
