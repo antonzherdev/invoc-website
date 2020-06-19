@@ -22,6 +22,8 @@
 
   <meta name="theme-color" content="#fafafa">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/3971decfc0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -95,14 +97,20 @@
     </section>
     <section id="sign-up">
       <div>
-        <form id="sign-up-form" method="post" action="???">
-          <h2>Sign up for a trial</h2>
+        <h2>Sign up for a trial</h2>
+        <form id="sign-up-form" method="post">
           <label for="email">EMail:</label>
           <input id="email" name="email" type="email" autocomplete="email" placeholder="EMail" required/>
           <input name="timezone" type="hidden" id="timezone" required/>
 
           <input type="submit" value="Sign up"/>
+          <span class="signing-up">
+            <i class="fa fa-spinner fa-pulse fa-fw"></i><span> Signing up</span>
+          </span>
         </form>
+        <div class="signed-up">
+          <i class="fa fa-check-circle"></i><span> Please check your inbox </span><span id="reg-email"></span>
+        </div>
       </div>
     </section>
     <section id="partner" class="light">
