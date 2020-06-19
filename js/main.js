@@ -6,7 +6,7 @@ $("#sign-up-form").submit(function(e) {
   e.preventDefault();
   const form = $(this);
   form.parent().addClass("m-signing-up")
-  const url = `https://private.invoc.xyz/sign-up`;
+  const url = `https://private.${location.host}/sign-up`;
   $("#reg-email").text($("#email").val());
   $.ajax({
     type: "POST",
