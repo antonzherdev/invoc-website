@@ -109,6 +109,9 @@ body {
     padding-top: 80px;
   }
 }
+b {
+  font-weight: 600;
+}
 #diagram img {
   margin-left: 13%;
   max-width: 87%;
@@ -176,15 +179,33 @@ section.light a {
 #pricing {
   padding-bottom: 2em;
 }
-#pricing .price {
-  display: grid;
-  grid-template-columns: 3.5em 15em;
+#pricing .price > div {
+  display: flex;
+  align-items: baseline;
 }
-#pricing .price > span {
+#pricing .price > div > span.amount {
+  margin-right: 0.3em;
+}
+#pricing .price > div > span.amount,
+#pricing .price > div .off {
   font-family: 'Roboto Mono', monospace;
 }
-#pricing .price > label {
-  font-weight: 600;
+#pricing .price > div > span.per {
+  margin-right: 0.3em;
+  align-self: baseline;
+}
+#pricing .price > div .off {
+  font-size: 0.7em;
+  color: darkred;
+  align-self: flex-start;
+  margin-left: 0.5em;
+}
+#pricing .price > div .off:not(:empty)::before {
+  content: "-";
+}
+#pricing .price > div .off:not(:empty)::after {
+  content: " off";
+  font-family: 'Open Sans', sans-serif;
 }
 #sign-up {
   padding-bottom: 2em;

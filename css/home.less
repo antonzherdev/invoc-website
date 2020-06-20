@@ -99,6 +99,9 @@ body {
     padding-top: 80px;
   }
 }
+b {
+  font-weight: 600;
+}
 
 #diagram {
   img {
@@ -164,13 +167,35 @@ section.light {
 
 #pricing {
   .price {
-    display: grid;
-    grid-template-columns: 3.5em 15em;
-    > span {
-      font-family: 'Roboto Mono', monospace;
-    }
-    > label {
-      font-weight: 600;
+    > div {
+      display: flex;
+      align-items: baseline;
+      > span.amount {
+        margin-right: 0.3em;
+      }
+      > span.amount, .off {
+        font-family: 'Roboto Mono', monospace;
+      }
+      > span.per {
+        margin-right: 0.3em;
+        align-self: baseline;
+      }
+
+      .off {
+        font-size: 0.7em;
+        color: darkred;
+        align-self: flex-start;
+        margin-left: 0.5em;
+        &:not(:empty) {
+          &::before {
+            content: "-";
+          }
+          &::after {
+            content: " off";
+            font-family: 'Open Sans', sans-serif;
+          }
+        }
+      }
     }
   }
   padding-bottom: 2em;
