@@ -37,6 +37,7 @@
           <div class="menu">
             <a href="#title">About</a>
             <a href="#pricing">Pricing</a>
+            <a href="#faq">FAQ</a>
             <a href="#partner">Partnership</a>
             <a href="#contact">Contact us</a>
           </div>
@@ -52,8 +53,7 @@
   <article>
     <section id="title">
       <div>
-        <h1>Automated Invoice Recognition</h1>
-        <p>Save time, money and staff resources by automating monotonous data entry</p>
+        <h1>invoc.ai extracts data from invoices and imports it into your system</h1>
       </div>
     </section>
     <section id="diagram">
@@ -61,14 +61,30 @@
         <img src="./img/invoc-diag.svg" alt="Diagram"/>
       </div>
     </section>
-    <section id="benefits" class="centre">
+    <section id="benefits" >
       <div>
         <ul>
-          <li>Accurate inventory control</li>
-          <li>Purchase invoices entered as soon as received</li>
-          <li>Cost/labour savings on invoice entry</li>
-          <li>Happier employees with more creative tasks</li>
+          <li>Accurate real-time inventory</li>
+          <li>No manual invoice entry</li>
         </ul>
+      </div>
+    </section>
+    <section id="sign-up" class="centre">
+      <div class="sign-up-form">
+        <h2>Sign up for a trial</h2>
+        <form method="post">
+          <label for="email">EMail:</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="EMail" required/>
+          <input name="timezone" type="hidden" class="timezone" required/>
+
+          <input type="submit" value="Sign up"/>
+          <span class="signing-up">
+            <i class="fa fa-spinner fa-pulse fa-fw"></i><span> Signing up</span>
+          </span>
+        </form>
+        <div class="signed-up">
+          <i class="fa fa-check-circle"></i><span> Please check your inbox </span><span id="reg-email1"></span>
+        </div>
       </div>
     </section>
     <section id="pricing" class="light">
@@ -87,45 +103,63 @@
             <span class="off">33%</span>
           </div>
         </div>
-        <p>You can choose to pay for your volume of invoices per month<br/>or prepay a number of invoices of your choice at the annual discount price.<br/>Unused invoices will roll over into the next annum.<br/>You will be charged only for fully recognised invoices.</p>
+        <p>You can choose to pay for your volume of invoices per month<br/>or prepay a number of invoices of your choice at the annual discounted price.<br/>Unused invoices will roll over into the next annum.<br/>You will be charged only for fully recognised invoices.</p>
         <small>* prices are in Australian Dollars, excluding GST</small>
       </div>
     </section>
-
-    <section id="why" class="centre">
+    <section id="setup">
       <div>
-        <h2>Why Invoc?</h2>
-        <ul>
-          <li>Full line recognition</li>
-          <li>Very high recognition rate 95%</li>
-          <li>Automatic vendor recognition</li>
-          <li>No template setup</li>
-          <li>API for integration with any system</li>
-        </ul>
+        <h2>Easy to use and set up</h2>
+        <ol>
+          <li class="step-1">
+            <div>
+              <span>Sign up:</span>
+              <div class="sign-up-form">
+                <form method="post">
+                    <label for="email2">EMail:</label>
+
+                    <input id="email2" name="email" type="email" autocomplete="email" placeholder="EMail" required/>
+                    <input name="timezone" type="hidden" class="timezone" required/>
+
+                    <input type="submit" value="Sign up"/>
+                    <span class="signing-up">
+                      <i class="fa fa-spinner fa-pulse fa-fw"></i><span> Signing up</span>
+                    </span>
+                </form>
+                <div class="signed-up">
+                  <i class="fa fa-check-circle"></i><span> Please check your inbox </span><span id="reg-email"></span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="step-2"><i class="fa fa-envelope"></i> Forward or redirect emails with invoices to the email address that you get after the registration.</li>
+          <li class="step-3"><i class="fa fa-plug"></i> Connect Invoc to your business system.</li>
+        </ol>
+
+        <p>That's it. There are no templates to set up and maintain. The system is fully powered by AI.</p>
+
+        <small>* If your system is not support yet, please contact us.</small>
       </div>
     </section>
-    <section id="sign-up">
+    <section id="faq" class="light">
       <div>
-        <h2>Sign up for a trial</h2>
-        <form id="sign-up-form" method="post">
-          <label for="email">EMail:</label>
-          <input id="email" name="email" type="email" autocomplete="email" placeholder="EMail" required/>
-          <input name="timezone" type="hidden" id="timezone" required/>
-
-          <input type="submit" value="Sign up"/>
-          <span class="signing-up">
-            <i class="fa fa-spinner fa-pulse fa-fw"></i><span> Signing up</span>
-          </span>
-        </form>
-        <div class="signed-up">
-          <i class="fa fa-check-circle"></i><span> Please check your inbox </span><span id="reg-email"></span>
-        </div>
+        <h2>FAQ</h2>
+        <h3>What is AI?</h3>
+        <p>Artificial intelligence (AI) is a software that can solve cognitive problems used to be solved by a human.</p>
+        <p>Machine learning (ML) is a collection of methods which allow training AI on sample datasets. Similarly to human, ML can recognize patterns in the dataset and make predictions about the data it's never seen before. </p>
+        <h3>How do you use AI in Invoc?</h3>
+        <p>We use a combination of algorithms and machine learning to find out patterns and intelligently recognize invoices based on thousands of sample invoices. For example, we use machine learning models to find out the borders of the tables and recognize invoice lines.</p>
+        <h3>Is AI dangerous?</h3>
+        <p>If you think of science fictions such as Matrix or Terminator, you will be disappointed. Humankind is still far away from creating a general AI which can learn anything and make decisions on its own.</p>
+        <h3>Will AI take people's jobs?</h3>
+<!--        <p>AI and robots will replace humans in some jobs. It's not bad. A lot of people used to work in factories and now you will see just several human in a powerful automated production line. But overall we live much better now, work fewer hours and do more pleasant creative jobs. It will be the same with AI.</p>-->
+        <p>AI and robots will be gradually replacing humans in more tedious jobs. But it's not necessarily bad. It will allow people to be focused on creative jobs and probably make the working week shorter.</p>
       </div>
     </section>
-    <section id="partner" class="light">
+    <section id="partner" >
       <div>
         <h2>Partnership Program</h2>
-        <p>We offer a partnership program to anyone willing to introduce potential customers to INVOC.<br/>Partners will receive 20% lifetime revenue of the referred customers.</p>
+        <p>We offer a partnership program to anyone willing to introduce potential customers to Invoc.<br/>Partners will receive 20% lifetime revenue of the referred customers.</p>
         <p>Please contact <a href="mailto:sales@invoc.ai">sales@invoc.ai</a> for more details.</p>
       </div>
     </section>

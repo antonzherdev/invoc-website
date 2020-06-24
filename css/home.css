@@ -39,11 +39,14 @@ h2 {
 a {
   color: white;
 }
+p {
+  max-width: 50em;
+}
 header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #0d2130;
+  background: #123a3a;
 }
 header nav {
   padding: 1em 0;
@@ -96,7 +99,7 @@ header nav .buttons > a {
   border: 1px #9db1bf solid;
   color: white;
   display: block;
-  background: #0e2e47;
+  background: #0b3138;
 }
 header nav .buttons > a:not(:last-child) {
   margin-right: 1em;
@@ -123,10 +126,12 @@ b {
   }
 }
 #benefits {
+  padding-top: 3em;
   padding-bottom: 1em;
 }
 #benefits ul {
-  font-size: 1.2em;
+  margin: 0;
+  font-size: 1.3em;
 }
 @media (max-width: 820px) {
   #benefits ul {
@@ -157,9 +162,11 @@ b {
 }
 #title {
   text-align: center;
+  padding-top: 3em;
+  padding-bottom: 5em;
 }
 #title h1 {
-  margin-bottom: 0;
+  margin: 0;
 }
 #title p {
   margin-top: 0.2em;
@@ -207,57 +214,73 @@ section.light a {
   content: " off";
   font-family: 'Open Sans', sans-serif;
 }
-#sign-up {
+#faq {
+  padding-bottom: 3em;
+}
+#faq h3 {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+#faq h3 ~ p {
+  margin-top: 0.2em;
+}
+#setup {
   padding-bottom: 2em;
 }
-#sign-up > div {
+#setup ol {
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+#setup ol > li {
+  margin-bottom: 1em;
+  max-width: 50em;
+}
+#setup ol > li.step-1 > div {
+  display: flex;
+  align-items: baseline;
+}
+#setup ol > li.step-1 > div > span {
+  margin-right: 1em;
+}
+.sign-up-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
-#sign-up > div .signing-up {
+.sign-up-form .signing-up {
   display: none;
 }
-#sign-up > div .signed-up {
+.sign-up-form .signed-up {
   display: none;
 }
-#sign-up > div.m-signing-up input[type=submit] {
+.sign-up-form.m-signing-up input[type=submit] {
   display: none;
 }
-#sign-up > div.m-signing-up .signing-up {
+.sign-up-form.m-signing-up .signing-up {
   display: block;
 }
-#sign-up > div.m-signed-up form {
+.sign-up-form.m-signed-up form {
   display: none;
 }
-#sign-up > div.m-signed-up .signed-up {
+.sign-up-form.m-signed-up .signed-up {
   display: block;
 }
-#sign-up h2 {
-  color: #2ebba8;
-  font-size: 2rem;
-  grid-column: 1 / span 2;
-  margin-bottom: 0;
-  text-align: center;
-}
-#sign-up .signed-up {
+.sign-up-form .signed-up {
   padding-top: 1em;
 }
-#sign-up .signed-up i {
+.sign-up-form .signed-up i {
   color: #2ebba8;
 }
-#sign-up .signed-up #reg-email {
+.sign-up-form .signed-up #reg-email {
   font-weight: 600;
 }
-#sign-up form {
+.sign-up-form form {
   display: grid;
   flex-direction: column;
   align-items: center;
   grid-template-columns: 20em 10em;
   grid-column-gap: 1em;
-  justify-content: center;
 }
-#sign-up form > input[type=email] {
+.sign-up-form form > input[type=email] {
   font-size: 1.2rem;
   height: 2em;
   border-radius: 5px;
@@ -265,7 +288,7 @@ section.light a {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-#sign-up form > input[type=submit] {
+.sign-up-form form > input[type=submit] {
   border: #8d268c solid 3px;
   color: #931a7e;
   font-weight: 600;
@@ -275,20 +298,29 @@ section.light a {
   cursor: pointer;
   width: 10em;
 }
-#sign-up form > label {
+.sign-up-form form > label {
   display: none;
 }
 @media (max-width: 620px) {
-  #sign-up form {
+  .sign-up-form form {
     grid-template-columns: 100%;
   }
-  #sign-up form > h2 {
+  .sign-up-form form > h2 {
     grid-column: 1;
     text-align: left;
   }
 }
-#partner {
+#sign-up {
   padding-bottom: 2em;
+}
+#sign-up h2 {
+  color: #2ebba8;
+  font-size: 1.7rem;
+  grid-column: 1 / span 2;
+  margin-bottom: 0;
+}
+#partner {
+  padding-bottom: 1em;
 }
 #why h2 {
   margin-bottom: 0;

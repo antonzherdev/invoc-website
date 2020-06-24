@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="9525px" height="6499px" viewBox="0 0 9525 6499" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>InvocDiag</title>
+    <title>invoc-diag</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="InvocDiag">
+        <g id="invoc-diag">
             <path d="M1485.5,1988.5 L3723,3344" id="Line" stroke="#B9D8D7" stroke-width="50" stroke-linecap="square"></path>
             <path d="M6451,680 L3734,3343" id="Line-Copy-4" stroke="#B9D8D7" stroke-width="50" stroke-linecap="square"></path>
             <path d="M6446,1558 L3728,3375" id="Line-Copy-5" stroke="#B9D8D7" stroke-width="50" stroke-linecap="square"></path>
@@ -21,7 +21,7 @@
                 <g id="Group-29" transform="translate(56.000000, 0.000000)">
                     <g id="Group-28" transform="translate(738.000000, 0.000000)">
                         <circle id="Oval" stroke="#979797" fill="#F5F5F5" cx="353.5" cy="353.5" r="353.5"></circle>
-                        <path d="M525.255469,308.165625 C527.967187,306.010156 532,308.026563 532,311.433594 L532,453.625 C532,472.050781 517.050781,487 498.625,487 L209.375,487 C190.949219,487 176,472.050781 176,453.625 L176,311.503125 C176,308.026563 179.963281,306.079687 182.744531,308.235156 C198.319531,320.333594 218.970312,335.7 289.892187,387.222656 C304.563281,397.930469 329.316406,420.458594 354,420.319531 C378.822656,420.528125 404.0625,397.513281 418.177344,387.222656 C489.099219,335.7 509.680469,320.264063 525.255469,308.165625 Z M354,398 C370.13125,398.278125 393.354688,377.696875 405.035937,369.214062 C497.303906,302.255469 504.326562,296.414844 525.603125,279.727344 C529.635937,276.598437 532,271.73125 532,266.585937 L532,253.375 C532,234.949219 517.050781,220 498.625,220 L209.375,220 C190.949219,220 176,234.949219 176,253.375 L176,266.585937 C176,271.73125 178.364062,276.528906 182.396875,279.727344 C203.673438,296.345312 210.696094,302.255469 302.964063,369.214062 C314.645312,377.696875 337.86875,398.278125 354,398 Z" id="Shape" fill="#5F0060" fill-rule="nonzero"></path>
+                        <path d="M525.255469,308.165625 C527.967187,306.010156 532,308.026563 532,311.433594 L532,453.625 C532,472.050781 517.050781,487 498.625,487 L209.375,487 C190.949219,487 176,472.050781 176,453.625 L176,311.503125 C176,308.026563 179.963281,306.079687 182.744531,308.235156 C198.319531,320.333594 218.970312,335.7 289.892187,387.222656 C304.563281,397.930469 329.316406,420.458594 354,420.319531 C378.822656,420.528125 404.0625,397.513281 418.177344,387.222656 C489.099219,335.7 509.680469,320.264063 525.255469,308.165625 Z M354,398 C370.13125,398.278125 393.354687,377.696875 405.035937,369.214062 C497.303906,302.255469 504.326562,296.414844 525.603125,279.727344 C529.635937,276.598437 532,271.73125 532,266.585937 L532,253.375 C532,234.949219 517.050781,220 498.625,220 L209.375,220 C190.949219,220 176,234.949219 176,253.375 L176,266.585937 C176,271.73125 178.364062,276.528906 182.396875,279.727344 C203.673438,296.345312 210.696094,302.255469 302.964062,369.214062 C314.645312,377.696875 337.86875,398.278125 354,398 Z" id="Shape" fill="#5F0060" fill-rule="nonzero"></path>
                     </g>
                     <text id="EMail" font-family="OpenSans, Open Sans" font-size="220" font-weight="normal" fill="#FFFFFF">
                         <tspan x="0" y="412">EMail</tspan>
@@ -160,23 +160,116 @@
                     </g>
                 </g>
             </g>
-            <text id="Export" font-family="OpenSans, Open Sans" font-size="220" font-weight="normal" fill="#FFFFFF">
-                <tspan x="6075" y="235">Export</tspan>
+            <text id="System" font-family="OpenSans, Open Sans" font-size="220" font-weight="normal" fill="#FFFFFF">
+                <tspan x="6075" y="235">System</tspan>
             </text>
-            <text id="Recognized-by-AI" font-family="OpenSans, Open Sans" font-size="220" font-weight="normal" fill="#FFFFFF">
-                <tspan x="2858" y="2247">Recognized by AI</tspan>
+            <text id="extracts-data" font-family="OpenSans, Open Sans" font-size="220" font-weight="normal" fill="#FFFFFF">
+                <tspan x="3029.32324" y="4289"> extracts data</tspan>
             </text>
-            <g id="Group-24" transform="translate(2690.000000, 4386.000000)" fill="#FFFFFF">
-                <text id="Approved-by-human" font-family="OpenSans, Open Sans" font-size="220" font-weight="normal">
-                    <tspan x="0" y="235">Approved by human</tspan>
-                </text>
-                <text id="if-necessary" font-family="OpenSans-Light, Open Sans" font-size="180" font-weight="300">
-                    <tspan x="553" y="491">if necessary</tspan>
-                </text>
-            </g>
+            <text id="invoc.ai" font-family="OpenSans, Open Sans" font-size="220" font-weight="normal" fill="#FFFFFF">
+                <tspan x="3340.97559" y="2603">invoc.ai </tspan>
+            </text>
             <g id="Group-25" transform="translate(3372.000000, 3007.000000)">
                 <circle id="Oval-Copy-3" stroke="#979797" fill="#F5F5F5" cx="353.5" cy="353.5" r="353.5"></circle>
-                <path d="M287.527778,136 C262.87066,136 242.419271,152.896484 236.564236,175.727344 C235.904514,175.727344 235.409722,175.5625 234.75,175.5625 C205.639757,175.5625 181.972222,199.217578 181.972222,228.3125 C181.972222,232.26875 182.467014,236.142578 183.374132,239.851562 C159.294271,249.742188 142.388889,273.314844 142.388889,300.84375 C142.388889,311.228906 145.027778,320.872266 149.233507,329.608984 C129.44184,340.983203 116,362.083203 116,386.5625 C116,414.008984 132.822917,437.581641 156.737847,447.472266 C155.99566,451.263672 155.583333,455.1375 155.583333,459.09375 C155.583333,491.897656 182.137153,518.4375 214.958333,518.4375 C218.33941,518.4375 221.638021,518.025391 224.854167,517.448437 C232.770833,540.938672 254.706597,558 280.930556,558 C313.751736,558 340.305556,531.460156 340.305556,498.65625 L340.305556,188.75 C340.305556,159.655078 316.638021,136 287.527778,136 Z M591,386.5625 C591,362.083203 577.55816,340.983203 557.766493,329.608984 C562.054687,320.872266 564.611111,311.228906 564.611111,300.84375 C564.611111,273.314844 547.705729,249.742188 523.625868,239.851562 C524.450521,236.142578 525.027778,232.26875 525.027778,228.3125 C525.027778,199.217578 501.360243,175.5625 472.25,175.5625 C471.590278,175.5625 471.013021,175.727344 470.435764,175.727344 C464.580729,152.896484 444.12934,136 419.472222,136 C390.361979,136 366.694444,159.572656 366.694444,188.75 L366.694444,498.65625 C366.694444,531.460156 393.248264,558 426.069444,558 C452.293403,558 474.229167,540.938672 482.145833,517.448437 C485.361979,518.025391 488.66059,518.4375 492.041667,518.4375 C524.862847,518.4375 551.416667,491.897656 551.416667,459.09375 C551.416667,455.1375 551.00434,451.263672 550.262153,447.472266 C574.177083,437.581641 591,414.008984 591,386.5625 Z" id="Shape" fill="#5F0060" fill-rule="nonzero"></path>
+                <g id="Group-6" transform="translate(354.000000, 396.000000) scale(1, -1) translate(-354.000000, -396.000000) translate(116.000000, 154.000000)">
+                    <polygon id="Triangle-Copy" fill-opacity="0.7" fill="#FFFFFF" points="237 0 462 484 12 484"></polygon>
+                    <g id="Group" transform="translate(0.000000, 20.000000)">
+                        <g id="Group-2" transform="translate(0.000000, 8.768753)">
+                            <g id="Group-3" transform="translate(27.759336, 0.000000)" stroke="#843A01" stroke-width="12">
+                                <path d="M143.385892,246.621171 L122.273859,231.275854" id="Line-5"></path>
+                                <path d="M209.360996,0 L122.273859,231.275854" id="Line-6"></path>
+                                <path d="M0,447.20639 L122.273859,231.275854" id="Line-7"></path>
+                            </g>
+                            <g id="Group-4" transform="translate(173.784232, 2.192188)">
+                                <g id="Group-5" transform="translate(1.759336, 197.296937)" stroke="#017584" stroke-linecap="square" stroke-width="8">
+                                    <path d="M36.06639,1.09609409 L30.7883817,40.5554814" id="Line-11"></path>
+                                    <path d="M0.87966805,47.132046 L30.7883817,40.5554814" id="Line-12"></path>
+                                    <path d="M58.9377593,88.7836215 L30.7883817,40.5554814" id="Line-13"></path>
+                                </g>
+                                <path d="M62.4564315,288.272746 L38.7053942,190.720372" id="Line-10" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M0.87966805,246.621171 L38.7053942,190.720372" id="Line-9" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M62.4564315,1.09609409 L38.7053942,195.104748" id="Line-8" stroke="#843A01" stroke-width="12"></path>
+                            </g>
+                            <g id="Group-4-Copy" transform="translate(129.169985, 330.343048) scale(1, -1) rotate(-60.000000) translate(-129.169985, -330.343048) translate(89.169985, 206.343048)">
+                                <g id="Group-5" transform="translate(1.759336, 157.296937)" stroke="#017584" stroke-linecap="square" stroke-width="8">
+                                    <path d="M38.8364177,1.95854009 L31.0518081,36.4752006" id="Line-11"></path>
+                                    <path d="M0.87966805,45.132046 L30.7883817,38.5554814" id="Line-12"></path>
+                                    <path d="M58.9377593,86.7836215 L30.3197572,39.2072514" id="Line-13"></path>
+                                </g>
+                                <path d="M62.4564315,246.272746 L40.3278047,154.791375" id="Line-10" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M0.87966805,204.621171 L37.1316522,161.255477" id="Line-9" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M78.5905991,1.0644791 L38.863703,160.255477" id="Line-8" stroke="#843A01" stroke-width="12"></path>
+                            </g>
+                            <path d="M236,293.231247 L172.024896,247.717265" id="Line-2" stroke="#013F84" stroke-width="16"></path>
+                            <path d="M172.024896,247.717265 L237.120332,2.19218819" id="Line-3" stroke="#013F84" stroke-width="16"></path>
+                            <path d="M26,449.398578 L173.784232,245.525077" id="Line-4" stroke="#013F84" stroke-width="16"></path>
+                        </g>
+                        <g id="Group-2-Copy" transform="translate(347.000000, 235.000000) scale(-1, 1) translate(-347.000000, -235.000000) translate(218.000000, 10.000000)">
+                            <g id="Group-3" transform="translate(27.759336, 0.000000)" stroke="#843A01" stroke-width="12">
+                                <path d="M143.385892,246.621171 L122.273859,231.275854" id="Line-5"></path>
+                                <path d="M209.360996,0 L122.273859,231.275854" id="Line-6"></path>
+                                <path d="M0,447.20639 L122.273859,231.275854" id="Line-7"></path>
+                            </g>
+                            <g id="Group-4" transform="translate(173.784232, 2.192188)">
+                                <g id="Group-5" transform="translate(1.759336, 197.296937)" stroke="#017584" stroke-linecap="square" stroke-width="8">
+                                    <path d="M36.06639,1.09609409 L30.7883817,40.5554814" id="Line-11"></path>
+                                    <path d="M0.87966805,47.132046 L30.7883817,40.5554814" id="Line-12"></path>
+                                    <path d="M58.9377593,88.7836215 L30.7883817,40.5554814" id="Line-13"></path>
+                                </g>
+                                <path d="M62.4564315,288.272746 L38.7053942,190.720372" id="Line-10" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M0.87966805,246.621171 L38.7053942,190.720372" id="Line-9" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M62.4564315,1.09609409 L38.7053942,195.104748" id="Line-8" stroke="#843A01" stroke-width="12"></path>
+                            </g>
+                            <g id="Group-4-Copy" transform="translate(129.169985, 330.343048) scale(1, -1) rotate(-60.000000) translate(-129.169985, -330.343048) translate(89.169985, 206.343048)">
+                                <g id="Group-5" transform="translate(1.759336, 157.296937)" stroke="#017584" stroke-linecap="square" stroke-width="8">
+                                    <path d="M38.8364177,1.95854009 L31.0518081,36.4752006" id="Line-11"></path>
+                                    <path d="M0.87966805,45.132046 L30.7883817,38.5554814" id="Line-12"></path>
+                                    <path d="M58.9377593,86.7836215 L30.3197572,39.2072514" id="Line-13"></path>
+                                </g>
+                                <path d="M62.4564315,246.272746 L40.3278047,154.791375" id="Line-10" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M0.87966805,204.621171 L37.1316522,161.255477" id="Line-9" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M78.5905991,1.0644791 L38.863703,160.255477" id="Line-8" stroke="#843A01" stroke-width="12"></path>
+                            </g>
+                            <path d="M236.240664,292.657123 L172.024896,247.717265" id="Line-2" stroke="#013F84" stroke-width="16"></path>
+                            <path d="M172.024896,247.717265 L237.120332,2.19218819" id="Line-3" stroke="#013F84" stroke-width="16"></path>
+                            <path d="M26,449.398578 L173.784232,245.525077" id="Line-4" stroke="#013F84" stroke-width="16"></path>
+                        </g>
+                        <g id="Group-7" transform="translate(36.000000, 308.000000)">
+                            <g id="Group-8" transform="translate(22.000000, 0.000000)">
+                                <g id="Group-9" transform="translate(130.000000, 14.000000)" stroke="#017584" stroke-linecap="square" stroke-width="8">
+                                    <path d="M1,53 L27,43" id="Line-20"></path>
+                                    <path d="M27,43 L41,1" id="Line-21"></path>
+                                    <path d="M27,43 L43,71" id="Line-22"></path>
+                                </g>
+                                <path d="M175,1 L127,69" id="Line-19" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M181,91 L127,69" id="Line-17" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M1,135 L127,69" id="Line-18" stroke="#843A01" stroke-width="12"></path>
+                            </g>
+                            <g id="Group-8-Copy" transform="translate(287.000000, 68.000000) scale(-1, 1) translate(-287.000000, -68.000000) translate(196.000000, 0.000000)">
+                                <g id="Group-9" transform="translate(130.000000, 14.000000)" stroke="#017584" stroke-linecap="square" stroke-width="8">
+                                    <path d="M1,53 L27,43" id="Line-20"></path>
+                                    <path d="M27,43 L41,1" id="Line-21"></path>
+                                    <path d="M27,43 L43,71" id="Line-22"></path>
+                                </g>
+                                <path d="M175,1 L127,69" id="Line-19" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M181,91 L127,69" id="Line-17" stroke="#843A01" stroke-width="12"></path>
+                                <path d="M1,135 L127,69" id="Line-18" stroke="#843A01" stroke-width="12"></path>
+                            </g>
+                            <g id="Group-10" transform="translate(0.000000, 90.000000)" stroke="#843A01" stroke-width="12">
+                                <path d="M199,1 L199,33" id="Line-23"></path>
+                                <path d="M407,59 L199,33" id="Line-24"></path>
+                                <path d="M1,55 L199,33" id="Line-25"></path>
+                            </g>
+                            <path d="M7,139 L202,90" id="Line-14" stroke="#013F84" stroke-width="16"></path>
+                            <path d="M199,91 L397,139" id="Line-15" stroke="#013F84" stroke-width="16"></path>
+                            <path d="M199,91 L199,1" id="Line-16" stroke="#013F84" stroke-width="16"></path>
+                        </g>
+                        <path d="M29.5186722,451.590766 L237.120332,303.618064" id="Line" stroke="#BB852C" stroke-width="20"></path>
+                        <path d="M237.120332,453.782954 L448.240664,304.714158" id="Line-Copy-2" stroke="#BB852C" stroke-width="20" transform="translate(342.680498, 379.248556) scale(-1, 1) translate(-342.680498, -379.248556) "></path>
+                        <path d="M237.120332,0 L237.120332,311.290722" id="Line-Copy" stroke="#BB852C" stroke-width="20"></path>
+                    </g>
+                    <path d="M237,23.7218865 L27.6764968,474 L446.323503,474 L237,23.7218865 Z" id="Triangle" stroke="#830184" stroke-width="20"></path>
+                </g>
             </g>
         </g>
     </g>
