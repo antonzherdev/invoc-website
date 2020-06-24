@@ -22,19 +22,44 @@ h1 {
   font-size: 3rem;
   font-weight: 400;
 }
-@media (max-width: 820px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 2.5rem;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 580px) {
   h1 {
     font-size: 2rem;
+  }
+}
+@media (max-width: 470px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 430px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 390px) {
+  h1 {
+    font-size: 1.4rem;
   }
 }
 h2 {
   font-size: 2.5rem;
   font-weight: 600;
+}
+@media (max-width: 520px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 420px) {
+  h2 {
+    font-size: 1.7rem;
+  }
 }
 a {
   color: white;
@@ -186,10 +211,6 @@ section.light a {
 #pricing {
   padding-bottom: 2em;
 }
-#pricing .price > div {
-  display: flex;
-  align-items: baseline;
-}
 #pricing .price > div > span.amount {
   margin-right: 0.3em;
 }
@@ -205,7 +226,7 @@ section.light a {
   font-size: 0.7em;
   color: darkred;
   align-self: flex-start;
-  margin-left: 0.5em;
+  vertical-align: top;
 }
 #pricing .price > div .off:not(:empty)::before {
   content: "-";
@@ -229,22 +250,18 @@ section.light a {
 }
 #setup ol {
   margin-top: 0;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
+  padding-inline-start: 20px;
 }
 #setup ol > li {
-  margin-bottom: 1em;
+  padding-left: 0.5em;
+  margin-bottom: 0.6em;
   max-width: 50em;
-}
-#setup ol > li.step-1 > div {
-  display: flex;
-  align-items: baseline;
-}
-#setup ol > li.step-1 > div > span {
-  margin-right: 1em;
 }
 .sign-up-form {
   display: flex;
   flex-direction: column;
+  align-self: stretch;
 }
 .sign-up-form .signing-up {
   display: none;
@@ -285,8 +302,6 @@ section.light a {
   height: 2em;
   border-radius: 5px;
   padding: 0 0.5em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
 }
 .sign-up-form form > input[type=submit] {
   border: #8d268c solid 3px;
@@ -297,17 +312,22 @@ section.light a {
   background: white;
   cursor: pointer;
   width: 10em;
+  justify-self: center;
 }
 .sign-up-form form > label {
   display: none;
 }
 @media (max-width: 620px) {
   .sign-up-form form {
+    width: 100%;
     grid-template-columns: 100%;
   }
   .sign-up-form form > h2 {
     grid-column: 1;
     text-align: left;
+  }
+  .sign-up-form form > input[type=email] {
+    margin-bottom: 0.5em;
   }
 }
 #sign-up {
@@ -317,7 +337,7 @@ section.light a {
   color: #2ebba8;
   font-size: 1.7rem;
   grid-column: 1 / span 2;
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
 }
 #partner {
   padding-bottom: 1em;
@@ -336,10 +356,21 @@ section.light a {
   margin-right: 1em;
 }
 footer {
-  padding: 1em;
+  padding: 1em 0;
 }
 footer > section > div {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 7.5em auto 7.5em;
+}
+footer > section > div > .cpr {
+  text-align: center;
+}
+@media (max-width: 520px) {
+  footer > section > div {
+    grid-template-columns: 7.5em auto;
+  }
+  footer > section > div > .cpr {
+    text-align: right;
+  }
 }
 /*# sourceMappingURL=home.css.map */
